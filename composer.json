@@ -1,0 +1,17 @@
+{
+  "name": "adrianoferreira/data-structures",
+  "authors": [
+    {
+      "name": "Adriano Ferreira",
+      "email": "adrianokta@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "AdrianoFerreira\\DS\\": "src"
+    }
+  }
+}
