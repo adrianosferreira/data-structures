@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1579883882">
-  <project timestamp="1579883882">
+<coverage generated="1579890000">
+  <project timestamp="1579890000">
     <package name="AdrianoFerreira\DS\HashTable">
       <file name="/Users/adriano/sites/data-structures/src/HashTable/Node.php">
         <class name="AdrianoFerreira\DS\HashTable\Node" namespace="AdrianoFerreira\DS\HashTable">
@@ -26,7 +26,7 @@
       </file>
       <file name="/Users/adriano/sites/data-structures/src/HashTable/Table.php">
         <class name="AdrianoFerreira\DS\HashTable\Table" namespace="AdrianoFerreira\DS\HashTable">
-          <metrics complexity="16" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="33" elements="43" coveredelements="39"/>
+          <metrics complexity="18" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="33" elements="43" coveredelements="39"/>
         </class>
         <line num="11" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="11"/>
         <line num="13" type="stmt" count="11"/>
@@ -42,13 +42,13 @@
         <line num="29" type="stmt" count="10"/>
         <line num="31" type="stmt" count="6"/>
         <line num="33" type="stmt" count="10"/>
-        <line num="35" type="method" name="get" visibility="public" complexity="2" crap="2" count="10"/>
+        <line num="35" type="method" name="get" visibility="public" complexity="3" crap="3" count="10"/>
         <line num="37" type="stmt" count="10"/>
         <line num="38" type="stmt" count="10"/>
         <line num="39" type="stmt" count="10"/>
         <line num="40" type="stmt" count="1"/>
         <line num="43" type="stmt" count="9"/>
-        <line num="46" type="method" name="getHelper" visibility="private" complexity="3" crap="3.07" count="9"/>
+        <line num="46" type="method" name="getHelper" visibility="private" complexity="4" crap="4.13" count="9"/>
         <line num="48" type="stmt" count="9"/>
         <line num="49" type="stmt" count="9"/>
         <line num="50" type="stmt" count="1"/>

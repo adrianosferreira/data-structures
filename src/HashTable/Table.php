@@ -4,7 +4,6 @@ namespace AdrianoFerreira\DS\HashTable;
 
 class Table
 {
-
     private $buckets;
     private $numBuckets;
 
@@ -32,7 +31,7 @@ class Table
         }
     }
 
-    public function get($key)
+    public function get($key): ?string
     {
         $key  = $this->normalizeKey($key);
         $hash = $this->hash($key);
@@ -43,7 +42,7 @@ class Table
         return $this->getHelper($key, $this->buckets[$hash]);
     }
 
-    private function getHelper($key, Node $current)
+    private function getHelper($key, Node $current): ?string
     {
         if ($current->getKey() === $key) {
             return $current->getValue();
@@ -65,7 +64,7 @@ class Table
         }
     }
 
-    private function hash($key)
+    private function hash($key): int
     {
         $total = 0;
         $key   = (string)$key;
@@ -76,12 +75,12 @@ class Table
         return $total % $this->numBuckets;
     }
 
-    public function getBuckets()
+    public function getBuckets(): \SplFixedArray
     {
         return $this->buckets;
     }
 
-    private function normalizeKey($key)
+    private function normalizeKey($key): string
     {
         return (string)$key;
     }
