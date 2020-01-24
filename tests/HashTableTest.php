@@ -27,6 +27,12 @@ class HashTableTest extends TestCase
         }
     }
 
+    public function testWrongSizeFormat()
+    {
+        $this->expectExceptionMessage('The value of $size should be an integer, not a number given');
+        new Table('not a number');
+    }
+
     public function dpDataInsertion()
     {
         return [

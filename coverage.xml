@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1579883207">
-  <project timestamp="1579883207">
+<coverage generated="1579883882">
+  <project timestamp="1579883882">
     <package name="AdrianoFerreira\DS\HashTable">
       <file name="/Users/adriano/sites/data-structures/src/HashTable/Node.php">
         <class name="AdrianoFerreira\DS\HashTable\Node" namespace="AdrianoFerreira\DS\HashTable">
@@ -26,11 +26,11 @@
       </file>
       <file name="/Users/adriano/sites/data-structures/src/HashTable/Table.php">
         <class name="AdrianoFerreira\DS\HashTable\Table" namespace="AdrianoFerreira\DS\HashTable">
-          <metrics complexity="16" methods="8" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="32" elements="43" coveredelements="37"/>
+          <metrics complexity="16" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="33" elements="43" coveredelements="39"/>
         </class>
-        <line num="11" type="method" name="__construct" visibility="public" complexity="2" crap="2.03" count="10"/>
-        <line num="13" type="stmt" count="10"/>
-        <line num="14" type="stmt" count="0"/>
+        <line num="11" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="11"/>
+        <line num="13" type="stmt" count="11"/>
+        <line num="14" type="stmt" count="1"/>
         <line num="18" type="stmt" count="10"/>
         <line num="19" type="stmt" count="10"/>
         <line num="20" type="stmt" count="10"/>
@@ -71,9 +71,9 @@
         <line num="81" type="stmt" count="9"/>
         <line num="84" type="method" name="normalizeKey" visibility="private" complexity="1" crap="1" count="10"/>
         <line num="86" type="stmt" count="10"/>
-        <metrics loc="87" ncloc="87" classes="1" methods="8" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="32" elements="43" coveredelements="37"/>
+        <metrics loc="87" ncloc="87" classes="1" methods="8" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="33" elements="43" coveredelements="39"/>
       </file>
     </package>
-    <metrics files="2" loc="126" ncloc="126" classes="2" methods="14" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="45" coveredstatements="42" elements="59" coveredelements="53"/>
+    <metrics files="2" loc="126" ncloc="126" classes="2" methods="14" coveredmethods="12" conditionals="0" coveredconditionals="0" statements="45" coveredstatements="43" elements="59" coveredelements="55"/>
   </project>
 </coverage>
